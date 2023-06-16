@@ -1,0 +1,51 @@
+{
+    "private": true,
+    "main": "server.js",
+    "directories": {
+        "test": "tests"
+    },
+    "name": "waotomatis",
+    "version": "beta",
+    "scripts": {
+        "start": "node server.js",
+        "dev": "npm run development",
+        "development": "mix",
+        "watch": "mix watch",
+        "watch-poll": "mix watch -- --watch-options-poll=1000",
+        "hot": "mix watch --hot",
+        "prod": "npm run production",
+        "production": "mix --production"
+    },
+    "dependencies": {
+        "@adiwajshing/baileys": "github:adiwajshing/baileys",
+        "@adiwajshing/keyed-db": "^0.2.4",
+        "@hapi/boom": "^9.1.4",
+        "awesome-phonenumber": "^3.0.2",
+        "axios": "^0.26.0",
+        "dotenv": "^16.0.0",
+        "express": "^4.17.3",
+        "express-validation": "^3.0.8",
+        "express-validator": "^6.14.0",
+        "file-type": "^16.5.3",
+        "flowbite": "^1.4.1",
+        "jimp": "^0.16.1",
+        "mysql2": "^2.3.3",
+        "qrcode": "^1.5.0",
+        "socket.io": "^4.4.1",
+        "uuid": "^8.3.2"
+    },
+    "devDependencies": {
+        "@fortawesome/fontawesome-free": "^5.15.1",
+        "@tailwindcss/forms": "^0.4.0",
+        "alpinejs": "^3.4.2",
+        "autoprefixer": "^10.4.2",
+        "axios": "^0.21",
+        "laravel-mix": "^6.0.6",
+        "lodash": "^4.17.19",
+        "postcss": "^8.4.6",
+        "postcss-custom-properties": "^12.1.7",
+        "postcss-import": "^14.0.2",
+        "sweetalert2": "^11.4.13",
+        "tailwindcss": "^3.0.18"
+    }
+}

@@ -1,0 +1,2 @@
+<label for="caption" class="form-label">Text Message</label>
+<textarea type="text" name="caption" class="form-control" id="keyword" rows="5" required>{{ isset($autoreply) && $autoreply->reply_type == 'text' ? json_decode($autoreply->reply)->text : '' }}</textarea>
